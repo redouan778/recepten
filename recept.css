@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: auto;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #166;
+}
+section{ width: 400px;  margin: auto;}
+
+div{ width: 600px; margin: auto;}
+
+.appart
+{ float: left;}
+
+#zalm { width: auto; border-radius:50%;}
+#kok { border-radius:50%; height: 250px; width: 250px;  float: right;}
+
+ .fotox
+ {
+
+height: 220px;
+width: 180px;
+border: 3px solid ;
+border-color:black;
+display: inline-block;
+border-radius:50%;
+}
+
+img{ border: 2px solid black}
+
+#oke{ height:195px;}
+
+body {background-image: url("kok-achtergrond.jpg");}
+.achtergrond{ background-color: #cccccc; opacity: 0.6; padding: 15px; width: 570px; text-align: justify; font-size: 16px;}
+
+#sperzie-bonen{border-radius:50%;}
+#oke{border-radius:50%;}
+#oven{ border-radius:50%;} 
